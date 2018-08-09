@@ -1,0 +1,31 @@
+Pre-requisite
+1) Install the latest version of Eclipse and Google Chrome browser
+2) Download and install Java 8.
+
+Setup:
+1) Download and install Selenium Server - (version 3.13.0) 
+   You can download this from the website ->https://www.seleniumhq.org/download/
+   Click the link (3.13.0) under 'Selenium Standalone Server' section.
+   Add all the jar files to the classpath of the eclipse project
+   
+2) Download and install Selenium Client & WebDriver Language Bindings
+   Go to https://www.seleniumhq.org/download/ webpage
+   Under, 'Selenium Client & WebDriver Language Bindings', click on Java download
+   A zip file will be downloaded. Extract the zip file and add all the jars present
+   in this zip file to the project's class path in eclipse.
+   
+3) Download and install Chrome Driver
+   Go to https://www.seleniumhq.org/download/ webpage.
+   Scroll down to - 'Third Party Browser Drivers NOT DEVELOPED by seleniumhq' section
+   Select Google Chrome Driver, and download the latest version (2.41) correponding
+   to your machine (example chromedriver_win32.zip for windows)
+   Extract the zip file. You should find chromedriver.exe
+
+Please Note:   
+To run my java test files, create a folder named RobotFramework in C: drive.
+This folder is where the extracted chromedriver.exe needs to be placed. Alternatively,
+you can keep the chromedriver.exe file in any folder you wish and change the System 
+property in each Java code to point to the correct folder with the chromedriver exe.
+
+Once you have imported my project/java files from github into your eclipse IDE, 
+you will have to run each Java class file individually to run the test cases. 
